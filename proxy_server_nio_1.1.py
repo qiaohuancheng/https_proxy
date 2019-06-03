@@ -10,6 +10,7 @@ import time
 
 
 BUFSIZE=8192
+#socket的recv函数和connect函数会阻塞，这里设置超时时间
 TIMEOUT=1
 
 class Connection(object):
